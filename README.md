@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/cc51f26a-2528-42dc-b1b7-6290e647c981
 
 
 <h2> Older version </h2>
-bst-visualizer-eta.vercel.app
+
 https://github.com/user-attachments/assets/ca7b37d5-c956-4e5b-9f37-1ea12805e8d4
 
 
