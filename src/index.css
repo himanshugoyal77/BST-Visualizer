@@ -1,0 +1,92 @@
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.react-flow__node {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ff0073b3;
+  border: none;
+  color: white;
+}
+
+.react-flow__handle {
+  visibility: hidden;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions > button {
+  color: white;
+  cursor: pointer;
+  height: 30px;
+  width: max-content;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background-color: #ff0073b3;
+  border: none;
+}
+
+.actions > button:hover {
+  scale: 1.1;
+  transition: all 0.2s ease-in-out;
+}
+
+.active-button {
+  color: white;
+  cursor: pointer;
+  height: 30px;
+  width: max-content;
+  padding: 4px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  scale: 1.1;
+}
+
+.highlight {
+  background-color: red;
+  scale: 1.01;
+  animation: flicker 0.5s ease-in-out;
+}
+
+@keyframes flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.7;
+  }
+}
