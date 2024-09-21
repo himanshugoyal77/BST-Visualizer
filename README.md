@@ -1,8 +1,31 @@
-# React + Vite
+<h1 align="center" id="title">BST Visaulizer</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><img src="https://progmohamedali.wordpress.com/wp-content/uploads/2013/03/2.png?w=620" alt="project-image"></p>
 
-Currently, two official plugins are available:
+<p id="description">This project uses Javascript to visualize Binary search tree using Nodes and edges. It has functionality to display tree traversals find min and max element in BST and remove a given node</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>🚀 Demo</h2>
+
+https://bst-machine-coding.vercel.app/
+
+
+
+
+https://github.com/user-attachments/assets/cc51f26a-2528-42dc-b1b7-6290e647c981
+
+
+
+
+
+https://github.com/user-attachments/assets/ca7b37d5-c956-4e5b-9f37-1ea12805e8d4
+
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Javascript
+*   react.js
+*   bootstrap
